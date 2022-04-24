@@ -1,3 +1,3 @@
 # Completing-JavaScript-Course-2022-From-Zero-to-Expert
 Learning JS from course
-[UC-91743e2a-e453-483a-b091-f286ae249a60.pdf](https://github.com/ridvanms/The-Complete-JavaScript-Course-2022-From-Zero-to-Expert/files/8549680/UC-91743e2a-e453-483a-b091-f286ae249a60.pdf)
+<img width="531" alt="JavaScript(Certigicate)" src="https://user-images.githubusercontent.com/103427078/164976868-00ba94e0-896c-47ec-b90e-ddef1a5f9054.png">
