@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #604465 0%, #735758 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,8 +35,13 @@ main {
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  overflow: hidden;
+  overflow-y: scroll;
   display: flex;
+}
+@media (max-width:900px){
+  main{
+    width: 100%;
+  }
 }
 
 .player {
@@ -60,7 +65,7 @@ main {
 }
 
 .score {
-  font-size: 8rem;
+  font-size: 8vh;
   font-weight: 300;
   color: #c7365f;
   margin-bottom: auto;
@@ -104,7 +109,7 @@ main {
 
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
-  position: absolute;
+  position: fixed;
   left: 50%;
   transform: translateX(-50%);
   color: #444;
@@ -117,7 +122,7 @@ main {
   font-weight: 400;
   transition: all 0.2s;
 
-  background-color: white;
+  background-color: #ACACAC;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
 
@@ -152,7 +157,7 @@ main {
 }
 
 .dice {
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 16.5rem;
   transform: translateX(-50%);
@@ -161,7 +166,7 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: rgba(108, 229, 108, 0.497);
 }
 
 .player--winner .name {
